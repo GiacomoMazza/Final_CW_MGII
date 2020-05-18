@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_RealisticSand
+  m_Shader: {fileID: 4800000, guid: 901bf9530d321134ca2e16e089e7f0e5, type: 3}
+  m_ShaderKeywords: _RIMENABLED_ON _SANDENABLED_ON _SPECULARENABLED_ON _WAVESENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailRipple:
+        m_Texture: {fileID: 2800000, guid: 9bda966d738678f498c05e0b271d76b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlitterTex:
+        m_Texture: {fileID: 2800000, guid: 43ed88c2d8175954196a5453df5e0205, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 8b3b0df20dd6a044ba9f9795f0f23b22, type: 3}
+        m_Scale: {x: 40, y: 40}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalWaveTex1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalWaveTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RippleNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RippleNormalMap:
+        m_Texture: {fileID: 2800000, guid: 4e1621e826d5c9f44b14507aeb16f123, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SandTex:
+        m_Texture: {fileID: 2800000, guid: a3388b13642e6554ebd5cdeefa10a61d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShallowXTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShallowZTex:
+        m_Texture: {fileID: 2800000, guid: 9bda966d738678f498c05e0b271d76b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SteepXTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SteepZTex:
+        m_Texture: {fileID: 2800000, guid: 4e1621e826d5c9f44b14507aeb16f123, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DiffuseEnabled: 0
+    - _DstBlend: 0
+    - _GlitterEnabled: 0
+    - _GlitterThreshold: 0.97
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OceanSpecularEnabled: 0
+    - _OceanSpecularPower: 160
+    - _OceanSpecularStrength: 0.97
+    - _Parallax: 0.02
+    - _RimEnabled: 1
+    - _SandEnabled: 1
+    - _SandStrength: 0.2
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SteepnessSharpnessPower: 10
+    - _TerrainRimPower: 6
+    - _TerrainRimStrength: 0.8
+    - _UVSec: 0
+    - _WaveBlend: 0.14
+    - _WavesEnabled: 1
+    - _XZBlendPower: 9
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GlitterColor: {r: 0.27659777, g: 0.27659777, b: 0.27659777, a: 1}
+    - _OceanSpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
+    - _ShadowColour: {r: 1, g: 1, b: 1, a: 1}
+    - _TerrainColor: {r: 0.9056604, g: 0.7767995, b: 0.7048772, a: 1}
+    - _TerrainColour: {r: 1, g: 1, b: 1, a: 1}
+    - _TerrainRimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TerrainRimColour: {r: 1, g: 1, b: 1, a: 1}
